@@ -1,0 +1,26 @@
+#####################
+# Ignore the settings file with secrets overwritten
+
+
+#####################
+**/__tests__/__snapshots__/
+*.js.snap
+
+# generated webpack files
+node_modules
+**/node_modules
+package-lock.json
+**/package-lock.json
+
+# code coverage files
+htmlcov
+.coverage**
+
+# Logs and databases #
+######################
+*.log
+__tmp__*
+__logs
+
+# unzipped large files in git repo
+_git_ignore_*
