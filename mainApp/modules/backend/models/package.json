@@ -1,0 +1,7 @@
+{
+  "name": "@teja/backend-models-module",
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "typeorm": "0.2.38"
+  }
+}
