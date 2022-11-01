@@ -1,6 +1,13 @@
 {
   "name": "@teja/backend-models-module",
   "packageManager": "yarn@3.2.3",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn tsc -b",
+    "pack-module": "yarn pack"
+  },
   "dependencies": {
     "typeorm": "0.2.38"
   }

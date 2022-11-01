@@ -6,6 +6,9 @@
     },
     {
       "path": "./backend/models"
+    },
+    {
+      "path": "./backend/apis"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "name": "@teja/backend-apis-module",
+  "packageManager": "yarn@3.2.3",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "yarn tsc -b",
+    "pack-module": "yarn pack"
+  },
+  "dependencies": {
+    "@teja/backend-core-module": "workspace:modules/backend/core",
+    "@teja/backend-models-module": "workspace:modules/backend/models",
+    "routing-controllers": "^0.9.0",
+    "routing-controllers-openapi": "^3.1.0",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "typedi": "^0.10.0"
+  }
+}
