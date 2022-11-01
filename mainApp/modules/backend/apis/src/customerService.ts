@@ -7,7 +7,7 @@ const log: LoggerInterface = new Logger(__filename);
 export default class CustomerService {
   customerRepositry: any;
   constructor() {
-    this.customerRepositry = getDBRepository(getOsEnv("ZGS_CONNECTION_NAME"), "Customer");
+    this.customerRepositry = getDBRepository(getOsEnv("TEJA_CONNECTION_NAME"), "CustomerDetails");
   }
 
   public async getCustomers(): Promise<IQueryResponse> {
